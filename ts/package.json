@@ -1,0 +1,9 @@
+{
+  "name": "swmm5-typescript",
+  "version": "5.2.4",
+  "description": "EPA SWMM 5.2.4 translated to TypeScript; output byte-identical to EPA's Linux build",
+  "license": "SEE LICENSE IN ../README.md",
+  "private": true,
+  "scripts": { "build": "tsc -p ." },
+  "devDependencies": { "typescript": "5.6.3", "@types/node": "22.10.2" }
+}
